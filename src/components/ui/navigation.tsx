@@ -31,7 +31,7 @@ export function Navigation() {
           </GridItem> */}
 
           <GridItem>
-          <Link href="src\assets\Bernard CV.pdf">
+          <Link href="myportfolio\src\assets\Bernard CV.pdf">
                 <Button variant="outline">CV</Button>
           </Link>
           </GridItem>

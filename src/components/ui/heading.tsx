@@ -27,7 +27,7 @@ export function Heading() {
         <Flex mt="8" gap="3">
         {/* <Button variant={"outline"}>Learn More</Button> */}
 
-      <Link href="src\assets\Bernard CV.pdf">
+      <Link href="myportfolio\src\assets\Bernard CV.pdf">
       <Button variant="outline">Learn More</Button>
       </Link>
 

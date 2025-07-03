@@ -1,4 +1,4 @@
-import {Grid, VStack, HStack, Box, GridItem, Center} from "@chakra-ui/react"
+import {Grid, VStack, HStack} from "@chakra-ui/react"
 import { HiOutlineFolder } from "react-icons/hi"
 
 export function LinkTree() {

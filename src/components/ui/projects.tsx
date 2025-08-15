@@ -159,7 +159,7 @@ export function Projects() {
           </Flex>
         </VStack>
         <Box w="100%">
-          <Button variant="outline" color="yellow" borderColor="yellow" fontSize="30px" p="10" mb="4vh"mt="4vh"><Link>EXPLORE PROJECT</Link></Button>
+          <Link href="https://github.com/bernkyal/Time-Series-Forecasting-Analysis"><Button variant="outline" color="yellow" borderColor="yellow" fontSize="30px" p="10" mb="4vh"mt="4vh">EXPLORE PROJECT</Button></Link>
           </Box>
       </Box>
     </Grid>

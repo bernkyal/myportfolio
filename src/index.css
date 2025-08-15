@@ -46,8 +46,8 @@ h3 {
   font-size: 2em;
 }
 
-@media (max-width: 600px) {
-  #root p, div {
+@media (max-width: 800px) {
+  #root p, #root div {
     font-size: 1.6rem;
   }
 }

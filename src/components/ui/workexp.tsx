@@ -65,7 +65,6 @@ export function WorkExp() {
 
   return (
     <Grid
-      templateRows="80px 1fr"
       templateColumns="220px 1fr"
       w="60vw"
       mb="16vh"

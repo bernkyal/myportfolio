@@ -1,4 +1,4 @@
-import {Flex, Grid, Button, Link} from "@chakra-ui/react"
+import {Flex, Grid, Button, Link, Separator} from "@chakra-ui/react"
 
 export function Heading() {
   return (
@@ -19,8 +19,10 @@ export function Heading() {
 
        
         <div><h1 className="handwritten-text">Welcome To My Porfolio Page</h1></div>
+        <Separator borderColor="white" w="50%" />
         <Grid w="70%">
-        <div><b>Data Science enthusiast BSc Computer Science student who has a strong passion for machine learning and data analytics. Driven by curiousity, I'm uncovering our data's meaning to better help understand our world. As a proud Workstream Leader within my University, I'm utilizing both my technical expertise and my leadership skills to continuously apply data driven solutions while supporting and collaborating with others.</b> <br/><br/></div>
+          
+        <div><b>A Data Science enthusiast, Computer Science student who has a strong passion for machine learning and data analytics. Driven by curiousity, I'm uncovering our data's meaning to better help understand our world. As a proud Workstream Leader within my University, I'm utilizing both my technical expertise and my leadership skills to continuously apply data driven solutions while supporting and collaborating with others.</b> <br/><br/></div>
         
         <div>
         <Flex mt="8" gap="3">

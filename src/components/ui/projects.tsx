@@ -9,6 +9,7 @@ import {
   HStack,
   Separator,
   Image,
+  Flex,
   Link,
   Badge
 } from "@chakra-ui/react";
@@ -32,7 +33,7 @@ export function Projects() {
   return (
     <Grid id="projects" gap="4">
       <Box p={4}>
-        <Box h="60px" w="100%" textAlign="left">
+        <Box w="100%" textAlign="left">
           <h1>Featured Projects</h1>
           <Separator borderColor="white" w="50%" />
         </Box>
@@ -133,7 +134,7 @@ export function Projects() {
           </Box>
           
           {/* Tech Badges */}
-          <HStack>
+          <Flex wrap="wrap" maxW="70%">
             <Badge colorPalette="cyan" size="lg" variant="surface">
               Python
             </Badge>
@@ -155,7 +156,7 @@ export function Projects() {
             <Badge colorPalette="cyan" size="lg" variant="surface">
               v1.1
             </Badge>
-          </HStack>
+          </Flex>
         </VStack>
         <Box w="100%">
           <Button variant="outline" color="yellow" borderColor="yellow" fontSize="30px" p="10" mb="4vh"mt="4vh"><Link>EXPLORE PROJECT</Link></Button>

@@ -1,4 +1,4 @@
-import {Flex, Grid, Separator, Stack, Badge} from "@chakra-ui/react"
+import {Flex, Grid, Separator, Badge} from "@chakra-ui/react"
 
 
 export function Overview() {
@@ -14,13 +14,13 @@ export function Overview() {
         </Grid>
         
         
-        <Stack direction="row" flex-wrap="wrap" maxW="10px">
+        <Flex direction="row" wrap="wrap" maxW="70%">
         <Badge colorPalette="cyan" size="lg" variant="surface">Predicted: 1:1</Badge>
         <Badge colorPalette="cyan" size="lg" variant="surface">Data Scientist</Badge>
         <Badge colorPalette="cyan" size="lg" variant="surface">Enjoys Collaboration</Badge>
         <Badge colorPalette="cyan" size="lg" variant="surface">Experienced in Leadership</Badge>
 
-        </Stack>
+        </Flex>
         
         </Flex>
         </div>

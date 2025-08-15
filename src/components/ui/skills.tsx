@@ -1,4 +1,4 @@
-import {Flex, Grid, HStack, Badge} from "@chakra-ui/react"
+import {Flex, Grid, Badge} from "@chakra-ui/react"
 
 
 export function Skills() {
@@ -8,7 +8,7 @@ export function Skills() {
         <div>            
         <Flex direction={"column"} gap="4" textAlign="left" p="4" mb="20vh">
         <div><h3><b>Successful Technical Skills</b></h3></div>
-        <HStack>
+        <Flex wrap="wrap" maxW="70%">
 
         <Badge colorPalette="purple" size="lg" variant="surface">Python</Badge>
         <Badge colorPalette="purple" size="lg" variant="surface">HTML</Badge>
@@ -20,7 +20,7 @@ export function Skills() {
         <Badge colorPalette="purple" size="lg" variant="surface">Bash</Badge>
         <Badge colorPalette="purple" size="lg" variant="surface">Power BI</Badge>
 
-        </HStack>
+        </Flex>
         
         </Flex>
         </div>

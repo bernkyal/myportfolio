@@ -20,7 +20,7 @@ export function ProjectCard({
           <Avatar.Image src={image} />
           <Avatar.Fallback name={authorName} />
         </Avatar.Root>
-        <Card.Title mt="2">{title}</Card.Title>
+        <Card.Title mt="2" lineHeight="3rem">{title}</Card.Title>
         <Card.Description>{description}</Card.Description>
       </Card.Body>
       <Card.Footer justifyContent="flex-end">

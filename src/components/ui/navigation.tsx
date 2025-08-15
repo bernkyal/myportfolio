@@ -13,16 +13,16 @@ export function Navigation() {
 
     >
       <Box>
-        <Link href="#">Home</Link>
+        <Link letterSpacing={-1} href="#">Home</Link>
       </Box>
 
       <Spacer /> 
 
 
       <Flex gap="32">
-        <Link href="#about">About</Link>
-        <Link href="#projects">Projects</Link>
-        <Link href="#experience">Experience</Link>
+        <Link letterSpacing={-1} href="#about">About</Link>
+        <Link letterSpacing={-1} href="#projects">Projects</Link>
+        <Link letterSpacing={-1} href="#experience">Experience</Link>
       </Flex>
     </Flex>
   );

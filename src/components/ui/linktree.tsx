@@ -1,5 +1,4 @@
 import {Grid, VStack, HStack, Link} from "@chakra-ui/react"
-import { HiOutlineFolder } from "react-icons/hi"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdContactMail } from "react-icons/md";

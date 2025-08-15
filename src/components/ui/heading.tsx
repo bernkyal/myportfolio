@@ -24,7 +24,7 @@ export function Heading() {
         
         <div>
         <Flex mt="8" gap="3">
-      <Link href="https://bernkyal.github.io/myportfolio/files/BernardCV.pdf">
+      <Link href="files/BernardCV.pdf">
       <Button variant="outline">Download CV</Button>
       </Link>
 

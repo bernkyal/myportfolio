@@ -19,7 +19,7 @@ export function LinkTree() {
         <Link href="mailto:bernardkya@gmail.com">
         <MdContactMail size="40px"/> 
         </Link>
-        <Link href="/BernardCV.pdf" download>
+        <Link href="https://bernkyal.github.io/myportfolio/BernardCV.pdf" download>
         <FaFileDownload  size="40px"/> 
         </Link>
         </VStack>    

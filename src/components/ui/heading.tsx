@@ -1,13 +1,12 @@
 import {Flex, Grid, Button, Link} from "@chakra-ui/react"
 
-
 export function Heading() {
   return (
     <>
-        <Grid h="100vh" mt="25vh">
+        <Grid mb="16vh" mt="16vh">
         <div>            
           
-        <Flex direction={"column"} gap="4" textAlign="left" p="8">
+        <Flex direction={"column"} gap="4" textAlign="left" p="4">
       
         <div>
           <div><p>Hi, my name is</p></div>
@@ -20,15 +19,13 @@ export function Heading() {
 
        
         <div><h1 className="handwritten-text">Welcome To My Porfolio Page</h1></div>
-        <Grid w="50%">
-        <div><b>Here you can explore what I have made and get to know me more.</b> <br/><br/></div>
+        <Grid w="70%">
+        <div><b>Data Science enthusiast BSc Computer Science student who has a strong passion for machine learning and data analytics. Driven by curiousity, I'm uncovering our data's meaning to better help understand our world. As a proud Workstream Leader within my University, I'm utilizing both my technical expertise and my leadership skills to continuously apply data driven solutions while supporting and collaborating with others.</b> <br/><br/></div>
         
         <div>
         <Flex mt="8" gap="3">
-        {/* <Button variant={"outline"}>Learn More</Button> */}
-
-      <Link href="myportfolio\src\assets\Bernard CV.pdf">
-      <Button variant="outline">Learn More</Button>
+      <Link href="https://bernkyal.github.io/myportfolio/files/BernardCV.pdf">
+      <Button variant="outline">Download CV</Button>
       </Link>
 
 
@@ -37,6 +34,8 @@ export function Heading() {
         </Grid>
         </Flex>
         </div>
+
+     
         </Grid>
     </>
   )

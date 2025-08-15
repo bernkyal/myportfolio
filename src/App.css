@@ -6,7 +6,7 @@
 }
 
 #root p, div {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 /* HandwrittenTitle.css */
@@ -17,10 +17,13 @@
   justify-content: flex-end;
 }
 
+:target {
+  scroll-margin-top: 80px; /* equal to your navbar height */
+}
 
 .handwritten-text {
   font-family: 'Chivo Mono';
-  font-size: 48px;
+  font-size: 2.2rem;
   fill: #ffffff;
   font-weight: 900;
   stroke: #f8f8ff00;
@@ -61,6 +64,10 @@ Timeline.Description {
   translate: 0vh 30vh;
 }
 
+:target {
+  scroll-margin-top: 80px; 
+}
+
 .linktree {
   translate: 0vh 30vh;
 }
@@ -71,4 +78,13 @@ Timeline.Description {
 
 .miniprojects  {
   color: white;
+}
+
+.experience Card.Root :hover {
+  background-color: #cfb9d522;
+  backdrop-filter: blur(2px);
+  color: #ffffff;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 4px;
 }

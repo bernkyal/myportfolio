@@ -12,6 +12,8 @@ export function ProjectCard({
       width="90%" 
       bg="#eeeeee00" 
       backdropFilter="blur(3px)"
+      height="100%"
+      borderColor="#222"
     >
       <Card.Body gap="2">
         <Avatar.Root size="lg" shape="rounded">
@@ -22,7 +24,7 @@ export function ProjectCard({
         <Card.Description>{description}</Card.Description>
       </Card.Body>
       <Card.Footer justifyContent="flex-end">
-        <Button variant="outline">View</Button>
+        <Button variant="outline" color="#bbb" fontStyle="italic">Coming Soon</Button>
       </Card.Footer>
     </Card.Root>
   );

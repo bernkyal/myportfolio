@@ -4,58 +4,39 @@ import { ProjectCard } from "./projectcards"
 export function MiniProjects() {
   return (
     <>
+    <Box pb="40vh">
     <Box textAlign={"left"} pb="4vh">
        <h1>Other Stuff I Am Working On</h1>
       </Box>
-        <Grid templateColumns="repeat(3, 1fr)" gap="4">
+        <Grid templateColumns="repeat(2, 1fr)" gap="4">
            
 
           <GridItem>
           <ProjectCard
-          title="New Project 1"
-          description="Hello World"
-          image="https://picsum.photos/seed/ai/200/300"
-          authorName="First Project"
+          title="Employee Attrition Prediction & Retention System"
+          description="Predicts which employees are at risk of leaving using ML, and automate alerts."
+          authorName="1"
           ></ProjectCard>
           </GridItem>
 
           <GridItem>
           <ProjectCard
-          title="New Project 2"
-          description="Hello World"
-          image="https://picsum.photos/seed/ai/200/300"
-          authorName="First Project"
+          title="Logistics Incident Reporting & Analysis App"
+          description="Enable drivers/logistics teams to log delivery incidents via a mobile app, analyze patterns, and automate incident handling."
+          authorName="2"
           ></ProjectCard>
           </GridItem>
 
           <GridItem>
           <ProjectCard
-          title="New Project 3"
-          description="Hello World"
-          image="https://picsum.photos/seed/ai/200/300"
-          authorName="First Project"
-          ></ProjectCard>
-          </GridItem>
-
-          <GridItem>
-          <ProjectCard
-          title="New Project 4"
-          description="Hello World"
-          image="https://picsum.photos/seed/ai/200/300"
-          authorName="First Project"
-          ></ProjectCard>
-          </GridItem>
-
-          <GridItem>
-          <ProjectCard
-          title="New Project 5"
-          description="Hello World"
-          image="https://picsum.photos/seed/ai/200/300"
-          authorName="First Project"
+          title="Expense Fraud Detection & Reporting App"
+          description="Employees submit expenses through an app; ML model detects possible fraud and flags suspicious claims."
+          authorName="3"
           ></ProjectCard>
           </GridItem>
           
         </Grid>
+        </Box>
     </>
   )
 }

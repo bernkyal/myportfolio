@@ -9,7 +9,7 @@ export function Overview() {
         <Flex direction={"column"} gap="4" textAlign="left" p="4">
         <div className="title"><h1>About me</h1><Separator borderColor="white" w="50%"></Separator></div>
         <Grid w="70%" gap={"4"}>
-        <div>As an eager Data Scientist, I am specializing currently finishing my <a style={{color: "yellow", textDecoration: "underline"}} href="https://www.coursera.org/professional-certificates/google-advanced-data-analytics">Advanced Data Analytics Google Certification</a> and Computer Science (Bsc) degree. I strongly believe understanding our data is more criticial in creating a better future. I'm looking to apply my knowledge to a variety of new contexts. Outside of data science, I've developed strong skills within full stack web development, and game development as a way of engaging with computer science within a wide scope. These experiences help me be creative in the work I do throughout my work.</div>
+        <div>As an eager <a style={{color: "yellow", textDecoration: "underline"}} href="https://www.coursera.org/account/accomplishments/specialization/certificate/XIQ3JX0ETZQ8">self-motivated Data Scientist</a> and Computer Science undergraduate. I strongly believe understanding our data is more criticial in creating a better future. I'm looking to apply my knowledge to a variety of new contexts. Outside of data science, I've developed strong skills within full stack web development, and game development as a way of engaging with computer science within a wide scope. These experiences help me be creative in the work I do throughout my work.</div>
         <div></div>
         </Grid>
         

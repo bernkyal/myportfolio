@@ -13,25 +13,17 @@ export function MiniProjects() {
 
           <GridItem>
           <ProjectCard
-          title="Employee Attrition Prediction & Retention System"
-          description="Predicts which employees are at risk of leaving using ML, and automate alerts."
+          title="Financial Investment Tool"
+          description="Support new investors with deciding where and how they should allocate their resources"
           authorName="1"
           ></ProjectCard>
           </GridItem>
 
           <GridItem>
           <ProjectCard
-          title="Logistics Incident Reporting & Analysis App"
-          description="Enable drivers/logistics teams to log delivery incidents via a mobile app, analyze patterns, and automate incident handling."
+          title="SEC Financial Report"
+          description="Organizing through SEC Financial Data for benchmarking, insights spanning, competitive benchmarking, growth signals, financial assessment risk and investment scouting"
           authorName="2"
-          ></ProjectCard>
-          </GridItem>
-
-          <GridItem>
-          <ProjectCard
-          title="Expense Fraud Detection & Reporting App"
-          description="Employees submit expenses through an app; ML model detects possible fraud and flags suspicious claims."
-          authorName="3"
           ></ProjectCard>
           </GridItem>
           
